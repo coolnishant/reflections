@@ -5,18 +5,19 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	It is the link between working area and repos.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+	As its act as a must halt way to get to the repos so we can wait until before commit in case we forget. and git diff and git diff --staged can be used to get the changes right and then give the proper message.
 
-What are some situations when branches would be helpful in keeping your history
-
-
-organized? How would branches help?
-
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	It makes you to have different sub part from any commit and you can go through and fro from tha commit. Hence more versetile. Context Switching.
+	
 How do the diagrams help you visualize the branch structure?
+	Its as a stack.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging makes the whole day work together nad effective for more than one person working on the same project.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	Pros: doesn't changes to bad choice for our project.
+	Cons: its takes our time for some of the most obvious decisions.
